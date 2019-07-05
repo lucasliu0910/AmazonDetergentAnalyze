@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>YoServer</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/filename.css">
+</head>
+
+<style type="text/css">
+
+</style>
+
+
+
+<body>
+    <!-- 內容區 -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#1">清潔劑市場分析</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#2">市場供需</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#3">市場趨勢</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#4">市場容量</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#5">市場競爭情況</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#6">賣家類型</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#7">價格區間</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#8">總結</a>
+            </li>
+          </ul>
+          <!-- <span class="navbar-text">
+            <a href="https://fb.me/yoztw.net" target="_blank">FaceBook</a>
+           </span>&nbsp;&nbsp;&nbsp;
+           <span class="navbar-text">
+             <a href="https://fb.me/yoztw.net" target="_blank">Discord</a>
+           </span>&nbsp;&nbsp;&nbsp;
+           <span class="navbar-text">
+             <a href="https://fb.me/yoztw.net" target="_blank">LINE@</a>
+          </span> -->
+        </div>
+    </nav>
+     
+     <blockquote class="blockquote text-center">
+        <p class="mb-0"><h1><span style="font-family:Microsoft JhengHei;"><br><strong>清潔劑市場分析</strong></span></h1></p>
+        <footer class="blockquote-footer"><cite title="Source Title"></cite>--</footer>
+      </blockquote>
+    <!-- <div class="container">
+     <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              伺服器歷史
+            </button>
+          </h2>
+        </div>
+    
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            YoServer 成立於2020年4月1日，服主「YozTW」過去擔任苦力怕競技場伺服器(已關服)管理員，累積2.5年以上開服經驗，造就了現在的YoServer伺服器。
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              遊玩規範
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            我不喜歡給人規則限制，不管是玩家還是管理員，只要拿捏好分寸即可。
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              贊助伺服器
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            不管是主機升級、人事成本，都是伺服器內部開銷，如果你想要伺服器變的更好、維持的更久，請贊助本伺服器。沒有贊助伺服器的玩家別擔心! 贊助伺服器不會因此而讓遊戲變不公平。
+          </div>
+        </div>
+      </div>
+    </div>
+    </div> -->
+
+    <div class="container">
+        <div class="page-header" id="5"><h2><br><br>市場競爭情況</h2></div>
+        <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines table">
+          <col class="col0">
+          <col class="col1">
+          <col class="col2">
+          <col class="col3">
+          <col class="col4">
+          <col class="col5">
+          <col class="col6">
+          <col class="col7">
+          <col class="col8">
+          <tbody>
+            <tr class="row0">
+              <th scope="col">品牌</th>
+              <th scope="col">商品數</th>
+              <th scope="col">平均價格</th>
+              <th scope="col">銷量</th>
+              <th scope="col">銷量占比</th>
+              <th scope="col">收入</th>
+              <th scope="col">收入占比</th>
+              <th scope="col">評論</th>
+              <th scope="col">評論占比</th>
+            </tr>
+            <tr class="row1">
+              <td class="column0 style0 s">Rocco &amp; Roxie Supply Co</td>
+              <td class="column1 style0 n">3</td>
+              <td class="column2 style1 n">$27.30</td>
+              <td class="column3 style0 n">29135</td>
+              <td class="column4 style3 n">22.15%</td>
+              <td class="column5 style2 n">$737,302</td>
+              <td class="column6 style3 n">30.30%</td>
+              <td class="column7 style0 n">17711</td>
+              <td class="column8 style3 n">22.01%</td>
+            </tr>
+            <tr class="row2">
+              <td class="column0 style0 s">Litter Genie</td>
+              <td class="column1 style0 n">4</td>
+              <td class="column2 style1 n">$33.23</td>
+              <td class="column3 style0 n">18004</td>
+              <td class="column4 style3 n">13.69%</td>
+              <td class="column5 style2 n">$462,927</td>
+              <td class="column6 style3 n">19.02%</td>
+              <td class="column7 style0 n">16304</td>
+              <td class="column8 style3 n">20.26%</td>
+            </tr>
+            <tr class="row3">
+              <td class="column0 style0 s">Nature's Miracle</td>
+              <td class="column1 style0 n">20</td>
+              <td class="column2 style1 n">$14.20</td>
+              <td class="column3 style0 n">16885</td>
+              <td class="column4 style3 n">12.84%</td>
+              <td class="column5 style2 n">$160,475</td>
+              <td class="column6 style3 n">6.59%</td>
+              <td class="column7 style0 n">13684</td>
+              <td class="column8 style3 n">17.00%</td>
+            </tr>
+            <tr class="row4">
+              <td class="column0 style0 s">ANGRY ORANGE</td>
+              <td class="column1 style0 n">3</td>
+              <td class="column2 style1 n">$19.97</td>
+              <td class="column3 style0 n">13317</td>
+              <td class="column4 style3 n">10.12%</td>
+              <td class="column5 style2 n">$294,354</td>
+              <td class="column6 style3 n">12.10%</td>
+              <td class="column7 style0 n">3723</td>
+              <td class="column8 style3 n">4.63%</td>
+            </tr>
+            <tr class="row5">
+              <td class="column0 style0 s">Clorox</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$4.99</td>
+              <td class="column3 style0 n">11519</td>
+              <td class="column4 style3 n">8.76%</td>
+              <td class="column5 style2 n">$57,480</td>
+              <td class="column6 style3 n">2.36%</td>
+              <td class="column7 style0 n">414</td>
+              <td class="column8 style3 n">0.51%</td>
+            </tr>
+            <tr class="row6">
+              <td class="column0 style0 s">Resolve</td>
+              <td class="column1 style0 n">7</td>
+              <td class="column2 style1 n">$12.68</td>
+              <td class="column3 style0 n">6151</td>
+              <td class="column4 style3 n">4.68%</td>
+              <td class="column5 style2 n">$69,807</td>
+              <td class="column6 style3 n">2.87%</td>
+              <td class="column7 style0 n">749</td>
+              <td class="column8 style3 n">0.93%</td>
+            </tr>
+            <tr class="row7">
+              <td class="column0 style0 s">Simple Solution</td>
+              <td class="column1 style0 n">5</td>
+              <td class="column2 style1 n">$15.09</td>
+              <td class="column3 style0 n">4359</td>
+              <td class="column4 style3 n">3.31%</td>
+              <td class="column5 style2 n">$44,799</td>
+              <td class="column6 style3 n">1.84%</td>
+              <td class="column7 style0 n">3355</td>
+              <td class="column8 style3 n">4.17%</td>
+            </tr>
+            <tr class="row8">
+              <td class="column0 style0 s">NonScents</td>
+              <td class="column1 style0 n">3</td>
+              <td class="column2 style1 n">$15.32</td>
+              <td class="column3 style0 n">3902</td>
+              <td class="column4 style3 n">2.97%</td>
+              <td class="column5 style2 n">$47,908</td>
+              <td class="column6 style3 n">1.97%</td>
+              <td class="column7 style0 n">4249</td>
+              <td class="column8 style3 n">5.28%</td>
+            </tr>
+            <tr class="row9">
+              <td class="column0 style0 s">Out!</td>
+              <td class="column1 style0 n">2</td>
+              <td class="column2 style1 n">$5.02</td>
+              <td class="column3 style0 n">3534</td>
+              <td class="column4 style3 n">2.69%</td>
+              <td class="column5 style2 n">$18,665</td>
+              <td class="column6 style3 n">0.77%</td>
+              <td class="column7 style0 n">356</td>
+              <td class="column8 style3 n">0.44%</td>
+            </tr>
+            <tr class="row10">
+              <td class="column0 style0 s">Sunny &amp; Honey</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$19.97</td>
+              <td class="column3 style0 n">2835</td>
+              <td class="column4 style3 n">2.16%</td>
+              <td class="column5 style2 n">$56,615</td>
+              <td class="column6 style3 n">2.33%</td>
+              <td class="column7 style0 n">10</td>
+              <td class="column8 style3 n">0.01%</td>
+            </tr>
+            <tr class="row11">
+              <td class="column0 style0 s">NaturVet</td>
+              <td class="column1 style0 n">4</td>
+              <td class="column2 style1 n">$21.67</td>
+              <td class="column3 style0 n">2606</td>
+              <td class="column4 style3 n">1.98%</td>
+              <td class="column5 style2 n">$62,708</td>
+              <td class="column6 style3 n">2.58%</td>
+              <td class="column7 style0 n">2448</td>
+              <td class="column8 style3 n">3.04%</td>
+            </tr>
+            <tr class="row12">
+              <td class="column0 style0 s">BUBBA'S ROWDY FRIENDS</td>
+              <td class="column1 style0 n">2</td>
+              <td class="column2 style1 n">$29.97</td>
+              <td class="column3 style0 n">2089</td>
+              <td class="column4 style3 n">1.59%</td>
+              <td class="column5 style2 n">$77,537</td>
+              <td class="column6 style3 n">3.19%</td>
+              <td class="column7 style0 n">4462</td>
+              <td class="column8 style3 n">5.54%</td>
+            </tr>
+            <tr class="row13">
+              <td class="column0 style0 s">SIMPLE GREEN</td>
+              <td class="column1 style0 n">2</td>
+              <td class="column2 style1 n">$12.65</td>
+              <td class="column3 style0 n">2057</td>
+              <td class="column4 style3 n">1.56%</td>
+              <td class="column5 style2 n">$22,065</td>
+              <td class="column6 style3 n">0.91%</td>
+              <td class="column7 style0 n">1674</td>
+              <td class="column8 style3 n">2.08%</td>
+            </tr>
+            <tr class="row14">
+              <td class="column0 style0 s">Urine Gone</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$9.88</td>
+              <td class="column3 style0 n">1787</td>
+              <td class="column4 style3 n">1.36%</td>
+              <td class="column5 style2 n">$17,656</td>
+              <td class="column6 style3 n">0.73%</td>
+              <td class="column7 style0 n">412</td>
+              <td class="column8 style3 n">0.51%</td>
+            </tr>
+            <tr class="row15">
+              <td class="column0 style0 s">Zero Odor</td>
+              <td class="column1 style0 n">5</td>
+              <td class="column2 style1 n">$16.98</td>
+              <td class="column3 style0 n">1674</td>
+              <td class="column4 style3 n">1.27%</td>
+              <td class="column5 style2 n">$28,769</td>
+              <td class="column6 style3 n">1.18%</td>
+              <td class="column7 style0 n">2100</td>
+              <td class="column8 style3 n">2.61%</td>
+            </tr>
+            <tr class="row16">
+              <td class="column0 style0 s">Fresh Wave</td>
+              <td class="column1 style0 n">2</td>
+              <td class="column2 style1 n">$50.44</td>
+              <td class="column3 style0 n">1543</td>
+              <td class="column4 style3 n">1.17%</td>
+              <td class="column5 style2 n">$57,619</td>
+              <td class="column6 style3 n">2.37%</td>
+              <td class="column7 style0 n">896</td>
+              <td class="column8 style3 n">1.11%</td>
+            </tr>
+            <tr class="row17">
+              <td class="column0 style0 s">DampRid</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$3.65</td>
+              <td class="column3 style0 n">1230</td>
+              <td class="column4 style3 n">0.94%</td>
+              <td class="column5 style2 n">$4,490</td>
+              <td class="column6 style3 n">0.18%</td>
+              <td class="column7 style0 n">576</td>
+              <td class="column8 style3 n">0.72%</td>
+            </tr>
+            <tr class="row18">
+              <td class="column0 style0 s">Mister Max</td>
+              <td class="column1 style0 n">2</td>
+              <td class="column2 style1 n">$24.03</td>
+              <td class="column3 style0 n">959</td>
+              <td class="column4 style3 n">0.73%</td>
+              <td class="column5 style2 n">$27,741</td>
+              <td class="column6 style3 n">1.14%</td>
+              <td class="column7 style0 n">400</td>
+              <td class="column8 style3 n">0.50%</td>
+            </tr>
+            <tr class="row19">
+              <td class="column0 style0 s">Organic Alternatives, LLC</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$29.95</td>
+              <td class="column3 style0 n">943</td>
+              <td class="column4 style3 n">0.72%</td>
+              <td class="column5 style2 n">$28,243</td>
+              <td class="column6 style3 n">1.16%</td>
+              <td class="column7 style0 n">227</td>
+              <td class="column8 style3 n">0.28%</td>
+            </tr>
+            <tr class="row20">
+              <td class="column0 style0 s">FurryFreshness</td>
+              <td class="column1 style0 n">3</td>
+              <td class="column2 style1 n">$38.62</td>
+              <td class="column3 style0 n">754</td>
+              <td class="column4 style3 n">0.57%</td>
+              <td class="column5 style2 n">$30,650</td>
+              <td class="column6 style3 n">1.26%</td>
+              <td class="column7 style0 n">1090</td>
+              <td class="column8 style3 n">1.35%</td>
+            </tr>
+            <tr class="row21">
+              <td class="column0 style0 s">TriNova</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$13.99</td>
+              <td class="column3 style0 n">743</td>
+              <td class="column4 style3 n">0.56%</td>
+              <td class="column5 style2 n">$10,395</td>
+              <td class="column6 style3 n">0.43%</td>
+              <td class="column7 style0 n">641</td>
+              <td class="column8 style3 n">0.80%</td>
+            </tr>
+            <tr class="row22">
+              <td class="column0 style0 s">Fresh Step</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$5.79</td>
+              <td class="column3 style0 n">608</td>
+              <td class="column4 style3 n">0.46%</td>
+              <td class="column5 style2 n">$3,520</td>
+              <td class="column6 style3 n">0.14%</td>
+              <td class="column7 style0 n">65</td>
+              <td class="column8 style3 n">0.08%</td>
+            </tr>
+            <tr class="row23">
+              <td class="column0 style0 s">Thornell</td>
+              <td class="column1 style0 n">2</td>
+              <td class="column2 style1 n">$12.94</td>
+              <td class="column3 style0 n">534</td>
+              <td class="column4 style3 n">0.41%</td>
+              <td class="column5 style2 n">$6,900</td>
+              <td class="column6 style3 n">0.28%</td>
+              <td class="column7 style0 n">149</td>
+              <td class="column8 style3 n">0.19%</td>
+            </tr>
+            <tr class="row24">
+              <td class="column0 style0 s">Eco-88</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$24.99</td>
+              <td class="column3 style0 n">401</td>
+              <td class="column4 style3 n">0.30%</td>
+              <td class="column5 style2 n">$10,021</td>
+              <td class="column6 style3 n">0.41%</td>
+              <td class="column7 style0 n">436</td>
+              <td class="column8 style3 n">0.54%</td>
+            </tr>
+            <tr class="row25">
+              <td class="column0 style0 s">Bissell</td>
+              <td class="column1 style0 n">2</td>
+              <td class="column2 style1 n">$14.85</td>
+              <td class="column3 style0 n">359</td>
+              <td class="column4 style3 n">0.27%</td>
+              <td class="column5 style2 n">$4,974</td>
+              <td class="column6 style3 n">0.20%</td>
+              <td class="column7 style0 n">622</td>
+              <td class="column8 style3 n">0.77%</td>
+            </tr>
+            <tr class="row26">
+              <td class="column0 style0 s">(空白)</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$15.20</td>
+              <td class="column3 style0 n">359</td>
+              <td class="column4 style3 n">0.27%</td>
+              <td class="column5 style2 n">$5,457</td>
+              <td class="column6 style3 n">0.22%</td>
+              <td class="column7 style0 n">21</td>
+              <td class="column8 style3 n">0.03%</td>
+            </tr>
+            <tr class="row27">
+              <td class="column0 style0 s">SKOUT'S HONOR</td>
+              <td class="column1 style0 n">3</td>
+              <td class="column2 style1 n">$21.66</td>
+              <td class="column3 style0 n">333</td>
+              <td class="column4 style3 n">0.25%</td>
+              <td class="column5 style2 n">$7,052</td>
+              <td class="column6 style3 n">0.29%</td>
+              <td class="column7 style0 n">448</td>
+              <td class="column8 style3 n">0.56%</td>
+            </tr>
+            <tr class="row28">
+              <td class="column0 style0 s">Remove Urine</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$17.99</td>
+              <td class="column3 style0 n">329</td>
+              <td class="column4 style3 n">0.25%</td>
+              <td class="column5 style2 n">$5,919</td>
+              <td class="column6 style3 n">0.24%</td>
+              <td class="column7 style0 n">824</td>
+              <td class="column8 style3 n">1.02%</td>
+            </tr>
+            <tr class="row29">
+              <td class="column0 style0 s">Dumb Cat</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$17.79</td>
+              <td class="column3 style0 n">295</td>
+              <td class="column4 style3 n">0.22%</td>
+              <td class="column5 style2 n">$5,248</td>
+              <td class="column6 style3 n">0.22%</td>
+              <td class="column7 style0 n">307</td>
+              <td class="column8 style3 n">0.38%</td>
+            </tr>
+            <tr class="row30">
+              <td class="column0 style0 s">PetNovations</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$70.00</td>
+              <td class="column3 style0 n">285</td>
+              <td class="column4 style3 n">0.22%</td>
+              <td class="column5 style2 n">$19,950</td>
+              <td class="column6 style3 n">0.82%</td>
+              <td class="column7 style0 n">61</td>
+              <td class="column8 style3 n">0.08%</td>
+            </tr>
+            <tr class="row31">
+              <td class="column0 style0 s">Purina Tidy Cat</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$27.24</td>
+              <td class="column3 style0 n">274</td>
+              <td class="column4 style3 n">0.21%</td>
+              <td class="column5 style2 n">$7,464</td>
+              <td class="column6 style3 n">0.31%</td>
+              <td class="column7 style0 n">292</td>
+              <td class="column8 style3 n">0.36%</td>
+            </tr>
+            <tr class="row32">
+              <td class="column0 style0 s">Vetoquinol</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$16.99</td>
+              <td class="column3 style0 n">213</td>
+              <td class="column4 style3 n">0.16%</td>
+              <td class="column5 style2 n">$3,619</td>
+              <td class="column6 style3 n">0.15%</td>
+              <td class="column7 style0 n">422</td>
+              <td class="column8 style3 n">0.52%</td>
+            </tr>
+            <tr class="row33">
+              <td class="column0 style0 s">Ceva</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$18.28</td>
+              <td class="column3 style0 n">195</td>
+              <td class="column4 style3 n">0.15%</td>
+              <td class="column5 style2 n">$3,565</td>
+              <td class="column6 style3 n">0.15%</td>
+              <td class="column7 style0 n">118</td>
+              <td class="column8 style3 n">0.15%</td>
+            </tr>
+            <tr class="row34">
+              <td class="column0 style0 s">Rat Sorb</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$14.69</td>
+              <td class="column3 style0 n">189</td>
+              <td class="column4 style3 n">0.14%</td>
+              <td class="column5 style2 n">$2,776</td>
+              <td class="column6 style3 n">0.11%</td>
+              <td class="column7 style0 n">346</td>
+              <td class="column8 style3 n">0.43%</td>
+            </tr>
+            <tr class="row35">
+              <td class="column0 style0 s">Hartz</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$2.50</td>
+              <td class="column3 style0 n">177</td>
+              <td class="column4 style3 n">0.13%</td>
+              <td class="column5 style2 n">$443</td>
+              <td class="column6 style3 n">0.02%</td>
+              <td class="column7 style0 n">28</td>
+              <td class="column8 style3 n">0.03%</td>
+            </tr>
+            <tr class="row36">
+              <td class="column0 style0 s">CatGenie</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$20.00</td>
+              <td class="column3 style0 n">173</td>
+              <td class="column4 style3 n">0.13%</td>
+              <td class="column5 style2 n">$3,460</td>
+              <td class="column6 style3 n">0.14%</td>
+              <td class="column7 style0 n">139</td>
+              <td class="column8 style3 n">0.17%</td>
+            </tr>
+            <tr class="row37">
+              <td class="column0 style0 s">Hueter Toledo</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$13.99</td>
+              <td class="column3 style0 n">172</td>
+              <td class="column4 style3 n">0.13%</td>
+              <td class="column5 style2 n">$2,406</td>
+              <td class="column6 style3 n">0.10%</td>
+              <td class="column7 style0 n">238</td>
+              <td class="column8 style3 n">0.30%</td>
+            </tr>
+            <tr class="row38">
+              <td class="column0 style0 s">Eco-88 Products</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$68.74</td>
+              <td class="column3 style0 n">159</td>
+              <td class="column4 style3 n">0.12%</td>
+              <td class="column5 style2 n">$10,930</td>
+              <td class="column6 style3 n">0.45%</td>
+              <td class="column7 style0 n">49</td>
+              <td class="column8 style3 n">0.06%</td>
+            </tr>
+            <tr class="row39">
+              <td class="column0 style0 s">De-Skunk</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$12.99</td>
+              <td class="column3 style0 n">129</td>
+              <td class="column4 style3 n">0.10%</td>
+              <td class="column5 style2 n">$1,676</td>
+              <td class="column6 style3 n">0.07%</td>
+              <td class="column7 style0 n">47</td>
+              <td class="column8 style3 n">0.06%</td>
+            </tr>
+            <tr class="row40">
+              <td class="column0 style0 s">Earth Rated</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$13.99</td>
+              <td class="column3 style0 n">122</td>
+              <td class="column4 style3 n">0.09%</td>
+              <td class="column5 style2 n">$1,707</td>
+              <td class="column6 style3 n">0.07%</td>
+              <td class="column7 style0 n">103</td>
+              <td class="column8 style3 n">0.13%</td>
+            </tr>
+            <tr class="row41">
+              <td class="column0 style0 s">Tidy Cats</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$55.89</td>
+              <td class="column3 style0 n">110</td>
+              <td class="column4 style3 n">0.08%</td>
+              <td class="column5 style2 n">$6,148</td>
+              <td class="column6 style3 n">0.25%</td>
+              <td class="column7 style0 n">96</td>
+              <td class="column8 style3 n">0.12%</td>
+            </tr>
+            <tr class="row42">
+              <td class="column0 style0 s">Biocide Systems</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$21.78</td>
+              <td class="column3 style0 n">89</td>
+              <td class="column4 style3 n">0.07%</td>
+              <td class="column5 style2 n">$1,938</td>
+              <td class="column6 style3 n">0.08%</td>
+              <td class="column7 style0 n">151</td>
+              <td class="column8 style3 n">0.19%</td>
+            </tr>
+            <tr class="row43">
+              <td class="column0 style0 s">Arm &amp; Hammer</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style1 n">$15.74</td>
+              <td class="column3 style0 n">1</td>
+              <td class="column4 style3 n">0.00%</td>
+              <td class="column5 style2 n">$16</td>
+              <td class="column6 style3 n">0.00%</td>
+              <td class="column7 style0 n">36</td>
+              <td class="column8 style3 n">0.04%</td>
+            </tr>
+            <tr class="row44">
+              <td class="column0 style0 s">總計<span style="color:#000000; font-family:'Microsoft JhengHei UI'; font-size:11pt">:43</span></td>
+              <td class="column1 style0 n">99</td>
+              <td class="column2 style1 n">$19.78</td>
+              <td class="column3 style0 n">131532</td>
+              <td class="column4 style3 n">100.00%</td>
+              <td class="column5 style2 n">$2,433,392</td>
+              <td class="column6 style3 n">100.00%</td>
+              <td class="column7 style0 n">80479</td>
+              <td class="column8 style3 n">100.00%</td>
+            </tr>
+          </tbody>
+      </table>
+    </div>
+
+    <div class="container">
+      <div class="page-header" id="6"><h2><br><br>賣家類型</h2></div>
+      <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines table">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <tbody>
+          <tr class="row0">
+            <th scope="col">賣家類型</th>
+            <th scope="col">商品數</th>
+            <th scope="col">銷量</th>
+            <th scope="col">銷量占比</th>
+            <th scope="col">銷售額</th>
+            <th scope="col">銷售額占比</th>
+            <th scope="col">評論</th>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style0 s">AMZ</td>
+            <td class="column1 style0 n">43</td>
+            <td class="column2 style0 n">51826</td>
+            <td class="column3 style1 n">39.40%</td>
+            <td class="column4 style0 n">789247.82</td>
+            <td class="column5 style1 n">32.43%</td>
+            <td class="column6 style0 n">29978</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style0 s">FBA</td>
+            <td class="column1 style0 n">43</td>
+            <td class="column2 style0 n">63365</td>
+            <td class="column3 style1 n">48.17%</td>
+            <td class="column4 style0 n">1487001.51</td>
+            <td class="column5 style1 n">61.11%</td>
+            <td class="column6 style0 n">46364</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style0 s">MCH</td>
+            <td class="column1 style0 n">13</td>
+            <td class="column2 style0 n">16341</td>
+            <td class="column3 style1 n">12.42%</td>
+            <td class="column4 style0 n">157142.22</td>
+            <td class="column5 style1 n">6.46%</td>
+            <td class="column6 style0 n">4137</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style0 s">總計</td>
+            <td class="column1 style0 n">99</td>
+            <td class="column2 style0 n">131532</td>
+            <td class="column3 style1 n">100.00%</td>
+            <td class="column4 style0 n">2433391.55</td>
+            <td class="column5 style1 n">100.00%</td>
+            <td class="column6 style0 n">80479</td>
+          </tr>
+        </tbody>
+    </table>
+  </div>
+
+
+
+
+  <div class="container">
+      <div class="page-header" id="7"><h2><br><br>價格區間</h2></div>
+      <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines table">
+          <col class="col0">
+          <col class="col1">
+          <col class="col2">
+          <col class="col3">
+          <col class="col4">
+          <col class="col5">
+          <col class="col6">
+          <col class="col7">
+          <col class="col8">
+          <col class="col9">
+          <tbody>
+            <tr class="row0">
+              <th scope="col">價格區間</th>
+              <th scope="col">商品數</th>
+              <th scope="col">銷量</th>
+              <th scope="col">銷量占比</th>
+              <th scope="col">平均銷量</th>
+              <th scope="col">收入</th>
+              <th scope="col">收入占比</th>
+              <th scope="col">平均收入</th>
+              <th scope="col">評論占比</th>
+              <th scope="col">平均評論</th>
+            </tr>
+            <tr class="row1">
+              <td class="column0 style0 s">&lt;5</td>
+              <td class="column1 style0 n">6</td>
+              <td class="column2 style0 n">15980</td>
+              <td class="column3 style2 n">12.15%</td>
+              <td class="column4 style3 n">2663 </td>
+              <td class="column5 style1 n">$75,998</td>
+              <td class="column6 style2 n">3.12%</td>
+              <td class="column7 style1 n">$12,666</td>
+              <td class="column8 style2 n">2.50%</td>
+              <td class="column9 style3 n">336 </td>
+            </tr>
+            <tr class="row2">
+              <td class="column0 style0 s">5-10</td>
+              <td class="column1 style0 n">19</td>
+              <td class="column2 style0 n">24808</td>
+              <td class="column3 style2 n">18.86%</td>
+              <td class="column4 style3 n">1306 </td>
+              <td class="column5 style1 n">$206,206</td>
+              <td class="column6 style2 n">8.47%</td>
+              <td class="column7 style1 n">$10,853</td>
+              <td class="column8 style2 n">9.99%</td>
+              <td class="column9 style3 n">423 </td>
+            </tr>
+            <tr class="row3">
+              <td class="column0 style0 s">10-15</td>
+              <td class="column1 style0 n">19</td>
+              <td class="column2 style0 n">12089</td>
+              <td class="column3 style2 n">9.19%</td>
+              <td class="column4 style3 n">636 </td>
+              <td class="column5 style1 n">$142,621</td>
+              <td class="column6 style2 n">5.86%</td>
+              <td class="column7 style1 n">$7,506</td>
+              <td class="column8 style2 n">16.83%</td>
+              <td class="column9 style3 n">713 </td>
+            </tr>
+            <tr class="row4">
+              <td class="column1 style0 n table-success">15-20</td>
+              <td class="column1 style0 n table-success">26</td>
+              <td class="column2 style0 n table-success">36945</td>
+              <td class="column3 style0 n table-success">0.28</td>
+              <td class="column4 style0 n table-success">1420.96</td>
+              <td class="column5 style0 n table-success">716579.55</td>
+              <td class="column6 style0 n table-success">0.29</td>
+              <td class="column7 style0 n table-success">27560.75</td>
+              <td class="column8 style0 n table-success">0.25</td>
+              <td class="column9 style0 n table-success">791.11</td>
+            </tr>
+            <tr class="row5">
+              <td class="column0 style0 s table-primary">20-25</td>
+              <td class="column1 style0 n table-primary">6</td>
+              <td class="column2 style0 n table-primary">18790</td>
+              <td class="column3 style0 n table-primary">0.14</td>
+              <td class="column4 style0 n table-primary">3131.66</td>
+              <td class="column5 style0 n table-primary">427914.16</td>
+              <td class="column6 style0 n table-primary">0.17</td>
+              <td class="column7 style0 n table-primary">71319.02</td>
+              <td class="column8 style0 n table-primary">0.11</td>
+              <td class="column9 style0 n table-primary">1475.66</td>
+            </tr>
+            <tr class="row6">
+              <td class="column0 style0 s table-warning">25-30</td>
+              <td class="column1 style0 n table-warning">7</td>
+              <td class="column2 style0 n table-warning">11227</td>
+              <td class="column3 style0 n table-warning">0.08</td>
+              <td class="column4 style0 n table-warning">1603.85</td>
+              <td class="column5 style0 n table-warning">325006.65</td>
+              <td class="column6 style0 n table-warning">0.13</td>
+              <td class="column7 style0 n table-warning">46429.52</td>
+              <td class="column8 style0 n table-warning">0.10</td>
+              <td class="column9 style0 n table-warning">1257</td>
+            </tr>
+            <tr class="row7">
+              <td class="column0 style0 s">30-35</td>
+              <td class="column1 style0 n">8</td>
+              <td class="column2 style0 n">3063</td>
+              <td class="column3 style0 n">0.02</td>
+              <td class="column4 style0 n">382.87</td>
+              <td class="column5 style0 n">102300.66</td>
+              <td class="column6 style0 n">0.04</td>
+              <td class="column7 style0 n">12787.5825</td>
+              <td class="column8 style0 n">0.03</td>
+              <td class="column9 style0 n">362.62</td>
+            </tr>
+            <tr class="row8">
+              <td class="column0 style0 s">35-40</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style0 n">1791</td>
+              <td class="column3 style0 n">0.01</td>
+              <td class="column4 style0 n">1791</td>
+              <td class="column5 style0 n">71586.27</td>
+              <td class="column6 style0 n">0.02</td>
+              <td class="column7 style0 n">71586.27</td>
+              <td class="column8 style0 n">0.02</td>
+              <td class="column9 style0 n">2231</td>
+            </tr>
+            <tr class="row9">
+              <td class="column0 style0 s table-danger">45-50</td>
+              <td class="column1 style0 n table-danger">1</td>
+              <td class="column2 style0 n table-danger">5294</td>
+              <td class="column3 style0 n table-danger">0.04</td>
+              <td class="column4 style0 n table-danger">5294</td>
+              <td class="column5 style0 n table-danger">264541.18</td>
+              <td class="column6 style0 n table-danger">0.10</td>
+              <td class="column7 style0 n table-danger">264541.18</td>
+              <td class="column8 style0 n table-danger">0.10</td>
+              <td class="column9 style0 n table-danger">8768</td>
+            </tr>
+            <tr class="row10">
+              <td class="column0 style0 s">50-55</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style0 n">328</td>
+              <td class="column3 style2 n">0.25%</td>
+              <td class="column4 style3 n">328 </td>
+              <td class="column5 style1 n">$17,040</td>
+              <td class="column6 style2 n">0.70%</td>
+              <td class="column7 style1 n">$17,040</td>
+              <td class="column8 style2 n">0.58%</td>
+              <td class="column9 style3 n">465 </td>
+            </tr>
+            <tr class="row11">
+              <td class="column0 style0 s">55-60</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style0 n">110</td>
+              <td class="column3 style2 n">0.08%</td>
+              <td class="column4 style3 n">110 </td>
+              <td class="column5 style1 n">$6,148</td>
+              <td class="column6 style2 n">0.25%</td>
+              <td class="column7 style1 n">$6,148</td>
+              <td class="column8 style2 n">0.12%</td>
+              <td class="column9 style3 n">96 </td>
+            </tr>
+            <tr class="row12">
+              <td class="column0 style0 s">65-70</td>
+              <td class="column1 style0 n">3</td>
+              <td class="column2 style0 n">564</td>
+              <td class="column3 style2 n">0.43%</td>
+              <td class="column4 style3 n">188 </td>
+              <td class="column5 style1 n">$38,794</td>
+              <td class="column6 style2 n">1.59%</td>
+              <td class="column7 style1 n">$12,931</td>
+              <td class="column8 style2 n">0.15%</td>
+              <td class="column9 style3 n">41 </td>
+            </tr>
+            <tr class="row13">
+              <td class="column0 style0 s">&gt;70</td>
+              <td class="column1 style0 n">1</td>
+              <td class="column2 style0 n">543</td>
+              <td class="column3 style2 n">0.41%</td>
+              <td class="column4 style3 n">543 </td>
+              <td class="column5 style1 n">$38,656</td>
+              <td class="column6 style2 n">1.59%</td>
+              <td class="column7 style1 n">$38,656</td>
+              <td class="column8 style2 n">5.06%</td>
+              <td class="column9 style3 n">4076 </td>
+            </tr>
+            <tr class="row14">
+              <td class="column0 style0 s">總計</td>
+              <td class="column1 style0 n">99</td>
+              <td class="column2 style0 n">131532</td>
+              <td class="column3 style2 n">100.00%</td>
+              <td class="column4 style3 n">1329 </td>
+              <td class="column5 style1 n">$2,433,392</td>
+              <td class="column6 style2 n">100.00%</td>
+              <td class="column7 style1 n">$24,580</td>
+              <td class="column8 style2 n">100.00%</td>
+              <td class="column9 style3 n">813 </td>
+            </tr>
+          </tbody>
+      </table>
+  </div>
+
+
+    <footer class="footer" style="position: static;">
+        <div class="container">
+            <p class="text-center" id="hide_gift">Copyright &copy; 2019 LucasLiu All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <link href="https://visage.surgeplay.com/face/512/4efb71a201364b4d86c00af99676b20b" rel="icon" type="image/x-icon" />
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js" data-cf-settings="60459cf4a9a1f36af01eff4b-|49" defer=""></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type='text/javascript' src='js/fileneme.js'></script>
+</body>
+
+</html>
